@@ -23,7 +23,7 @@ Vagrant & Virtualbox
 Put your website files into ````www```` ensuring that the webroot folder is available at ````www/webroot```` (if you are using cakephp).
 For any other framework / site ````DOCUMENT_ROOT```` is set to ````www/webroot```` so create that folder and place files in there and it all should work.
 
-Edit ````docker-compose.yml```` and change ````MYSQL_DATABASE: forumapi_dev```` to the name of your database
+Edit ````docker-compose.yml```` and change ````MYSQL_DATABASE: your_database_name```` to the name of your database
 
 Put your initial database dump into db-dumps (.sql files only) - these will automatically be imported into the MySQL database name you added above on provisioning
 
