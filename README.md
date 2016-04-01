@@ -17,6 +17,7 @@ For a really quick development environment that uses docker internally, gets aro
 Vagrant & Virtualbox
 
 # How?
+As Root:
 
     git clone git@github.com:voycey/vagrant-docker-lemp.git && cd vagrant-docker-lemp
 
