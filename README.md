@@ -17,7 +17,6 @@ For a really quick development environment that uses docker internally, gets aro
 Vagrant & Virtualbox
 
 # How?
-As Root:
 
     git clone git@github.com:voycey/vagrant-docker-lemp.git && cd vagrant-docker-lemp
 
@@ -27,6 +26,8 @@ For any other framework / site ````DOCUMENT_ROOT```` is set to ````www/webroot``
 Edit ````docker-compose.yml```` and change ````MYSQL_DATABASE: your_database_name```` to the name of your database
 
 Put your initial database dump into db-dumps (.sql files only) - these will automatically be imported into the MySQL database name you added above on provisioning
+
+Then as root:
 
     vagrant up
 
