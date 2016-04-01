@@ -33,5 +33,16 @@ Put your initial database dump into db-dumps (.sql files only) - these will auto
 
 When it has pulled everything down your site will be available at http://192.168.33.10 by default (You can change this in Vagrantfile)
 
+#Troubleshooting
+
+I have occasionally got: 
+    
+````
+    There are errors in the configuration of this machine. Please fix the following errors and try again:
+vm:
+* The 'docker_compose' provisioner could not be found.
+````
+
+when provisioning for the first time - re-issuing ````vagrant up```` seems to work - will look into why its happening
 
 
