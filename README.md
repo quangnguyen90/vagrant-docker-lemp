@@ -18,7 +18,7 @@ Vagrant & Virtualbox
 
 # How?
 
-    git clone git@github.com:voycey/cakephp-vagrant-docker.git && cd cakephp-vagrant-docker
+    git clone git@github.com:voycey/vagrant-docker-lemp.git && cd vagrant-docker-lemp
 
 Put your website files into ````www```` ensuring that the webroot folder is available at ````www/webroot```` (if you are using cakephp).
 For any other framework / site ````DOCUMENT_ROOT```` is set to ````www/webroot```` so create that folder and place files in there and it all should work.
