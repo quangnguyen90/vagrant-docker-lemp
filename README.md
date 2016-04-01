@@ -40,11 +40,12 @@ When it has pulled everything down your site will be available at http://192.168
 I have occasionally got: 
     
 ````
-    There are errors in the configuration of this machine. Please fix the following errors and try again:
+There are errors in the configuration of this machine. Please fix the following errors and try again:
+
 vm:
 * The 'docker_compose' provisioner could not be found.
 ````
 
-when provisioning for the first time - re-issuing ````vagrant up```` seems to work.
+When provisioning for the first time - it is supposed to install the plugins as it goes but im not entirely sure it does it properly - just do ````vagrant reload```` if you get this and it should carry on.
 
 Alternatively you can do ```` vagrant plugin install vagrant-docker-compose ```` to install the plugin directly
