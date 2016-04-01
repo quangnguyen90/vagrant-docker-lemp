@@ -44,6 +44,6 @@ vm:
 * The 'docker_compose' provisioner could not be found.
 ````
 
-when provisioning for the first time - re-issuing ````vagrant up```` seems to work - will look into why its happening
+when provisioning for the first time - re-issuing ````vagrant up```` seems to work.
 
-
+Alternatively you can do ```` vagrant plugin install vagrant-docker-compose ```` to install the plugin directly
